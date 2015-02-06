@@ -1,0 +1,109 @@
+body{
+	background-image: url("surf_and_paddle.png");
+	background-repeat: no-repeat;
+	border: 1px solid red;
+	width: 1300px;
+	font-family: ‘Metrophobic’, Arial, serif;
+}
+
+/*=================
+	v Header v
+==================*/
+
+header{
+	/*background-image: url("images/mainphoto.jpg");*/
+	box-sizing: border-box;
+	border: 1px solid red;
+	min-height: 522px;
+
+}
+	
+	.hd_logo{
+		display: inline-block;
+		margin-left: 139px;
+		margin-top: 7px;
+	}
+	.hd_logo_words{
+		display: inline-block;
+		border: 1px solid red;
+		margin-top: 20px;
+		margin-left: 4px;
+		font-weight: 700px;
+		font-size: 17.5px;
+		vertical-align: top;
+	}
+/*=============================*/
+	.hd_nav{
+		display:inline-block;
+		border: 1px solid red;
+  		text-align: center;
+  		line-height: 50px;
+  		margin-left: 525px;
+  		margin-top: 4px;
+  		vertical-align: top;
+	}
+
+	.hd_nav li{
+	 	display: inline-block; 
+  		margin-left: 24px;
+  		font-size: 17.5px; 
+  		font-weight: 600;
+	}
+
+	.hd_nav_search{
+		display: inline-block;
+		vertical-align: top;
+		margin-top: 2px;
+	}
+
+
+
+
+		/*.hd_nav:only-of-type {
+			
+			vertical-align: top;
+			
+		}*/
+			
+
+	
+
+
+/*=================
+	v Section v
+==================*/
+
+section{
+	display: inline-block;
+	box-sizing: border-box;
+	/*border: 1px solid red;*/
+	min-height: 1006px;
+	width: 618px;
+	margin-left: 162px;
+	
+}
+
+/*=================
+	v Aside v
+==================*/
+
+aside{
+	display: inline-block;
+	box-sizing: border-box;
+	/*border: 1px solid red;
+*/	min-height: 1006px;
+	width: 280px;
+	margin-left: 76px;
+}
+
+/*=================
+	v Footer v
+==================*/
+
+footer{
+	/*display: inline-block;*/
+	box-sizing: border-box;
+	/*border: 1px solid red;*/
+	min-height: 578px;
+}
+
