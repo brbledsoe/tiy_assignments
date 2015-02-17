@@ -1,0 +1,109 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+ /* 700 600 400 */
+
+body { 
+  	// background-image: url(images/surf_and_paddle.png); 	background-repeat: no-repeat;
+  	font-family: 'Open Sans', sans-serif;
+  	vertical-align: top;
+  	// width: 100%;
+}
+
+img {max-width: 100%;}
+
+/* header */
+
+
+header{
+
+  
+
+  		.main_p{
+  			
+  			background-image: url(images/mainphoto.jpg); 
+  		}
+		
+  		/* v logo v */
+  		.logo{ float: left;
+
+	  		img{
+	  			float: left;
+	  			margin-left: 52.846%;
+	  			margin-top: 3%;
+	  		}
+
+			h1{
+			  
+			  float: left;
+			  font-size: 1.125em;
+			  margin-top: -12%;
+			  margin-left: 74%;
+			}
+		}
+
+		/* v right nav v */
+
+		.right_nav{float: right;
+			
+		
+			ul{
+				max-width: 100%;
+				float: right;
+			  text-align: center;
+			  
+			 
+			 
+			}
+
+
+			li {
+
+			  display: inline-block;
+			  font-size: 1.125em;
+			  font-weight: 600;
+			  margin-left: 22px;
+			  
+			}
+
+		
+
+			li:nth-of-type(3){
+				margin-right: 133px;
+				margin-top: 10px;
+				margin-left: 4px;
+			}
+
+		}
+
+}
+
+
+/* v big name v */
+
+h2{
+	display: inline-block;
+		font-size: 7.5em;
+	color: white;
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 8%;
+	font-weight: 600;
+
+
+}
+
+.sub{
+		font-size: 1.000em;
+		color: black;
+		text-align: center;
+		margin: 0 auto;
+	}
+
+/* v main_photo v */
+
+
+

@@ -1,0 +1,66 @@
+html {
+  box-sizing: border-box; }
+
+*, *:before, *:after {
+  box-sizing: inherit; }
+
+/* 700 600 400 */
+body {
+  font-family: 'Open Sans', sans-serif;
+  vertical-align: top; }
+
+img {
+  max-width: 100%; }
+
+/* header */
+header {
+  /* v logo v */
+  /* v right nav v */ }
+  header .main_p {
+    background-image: url(images/mainphoto.jpg); }
+  header .logo {
+    float: left; }
+    header .logo img {
+      float: left;
+      margin-left: 52.846%;
+      margin-top: 3%; }
+    header .logo h1 {
+      float: left;
+      font-size: 1.125em;
+      margin-top: -12%;
+      margin-left: 74%; }
+  header .right_nav {
+    float: right; }
+    header .right_nav ul {
+      max-width: 100%;
+      float: right;
+      text-align: center; }
+    header .right_nav li {
+      display: inline-block;
+      font-size: 1.125em;
+      font-weight: 600;
+      margin-left: 22px; }
+    header .right_nav li:nth-of-type(3) {
+      margin-right: 133px;
+      margin-top: 10px;
+      margin-left: 4px; }
+
+/* v big name v */
+h2 {
+  display: inline-block;
+  font-size: 7.5em;
+  color: white;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 8%;
+  font-weight: 600; }
+
+.sub {
+  font-size: 1.000em;
+  color: black;
+  text-align: center;
+  margin: 0 auto; }
+
+/* v main_photo v */
+
+/*# sourceMappingURL=style.css.map */
