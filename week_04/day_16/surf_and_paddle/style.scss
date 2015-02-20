@@ -1,109 +1,164 @@
+
+
 html {
-  box-sizing: border-box;
-}
+  box-sizing: border-box; }
+
 *, *:before, *:after {
-  box-sizing: inherit;
+  box-sizing: inherit; }
+
+/* 700 600 400 */
+body {
+  font-family: 'Open Sans', sans-serif;
+  vertical-align: top; }
+
+// img{ width: 100%;}
+
+%over_bor{
+	overflow: hidden;
+	border: 1px solid red;
 }
- /* 700 600 400 */
 
-body { 
-  	// background-image: url(images/surf_and_paddle.png); 	background-repeat: no-repeat;
-  	font-family: 'Open Sans', sans-serif;
-  	vertical-align: top;
-  	// width: 100%;
-}
-
-img {max-width: 100%;}
-
-/* header */
 
 
 header{
+  	background: url(images/mainphoto.jpg) center center;
+  	background-size: cover;
+  	width: 100%;
+  	}
 
-  
+	// V NAV WRAPPER V
+	.nav_wrap{
+		width: 100%;
+		overflow: hidden;
+		box-sizing: border-box;
+	
 
-  		.main_p{
-  			
-  			background-image: url(images/mainphoto.jpg); 
-  		}
-		
-  		/* v logo v */
-  		.logo{ float: left;
+	  // v logo v
+	  .logo{
+	  	float: left;
+	  	overflow: hidden;
+	  	margin-left: 140px;
+	  	padding-top: 5px;
 
-	  		img{
-	  			float: left;
-	  			margin-left: 52.846%;
-	  			margin-top: 3%;
+	  	img{float: left;}
+	  	h4{
+	  		float: left;
+	  		padding-top: 14px;
+	  		padding-left: 13px;
+	  		font-size: 18px;
+	  		font-weight: 600;
+	  		color: #0a273f;
+	  	}
+
+	  }
+
+	  // v about_search v
+	  .about_search{
+	  	float: right;
+	  	margin-right: 153px;
+	  	padding-top: 13px;
+	  	h4{float: left;
+	  		font-size: 18px;
+	  		font-weight: 600;
+	  		padding-top: 6px;
+	  		color: #0a273f;
 	  		}
-
-			h1{
-			  
-			  float: left;
-			  font-size: 1.125em;
-			  margin-top: -12%;
-			  margin-left: 74%;
-			}
-		}
-
-		/* v right nav v */
-
-		.right_nav{float: right;
-			
-		
-			ul{
-				max-width: 100%;
-				float: right;
-			  text-align: center;
-			  
-			 
-			 
-			}
-
-
-			li {
-
-			  display: inline-block;
-			  font-size: 1.125em;
-			  font-weight: 600;
-			  margin-left: 22px;
-			  
-			}
-
-		
-
-			li:nth-of-type(3){
-				margin-right: 133px;
-				margin-top: 10px;
-				margin-left: 4px;
-			}
-
-		}
-
-}
-
-
-/* v big name v */
-
-h2{
-	display: inline-block;
-		font-size: 7.5em;
-	color: white;
-	text-align: center;
-	margin: 0 auto;
-	margin-top: 8%;
-	font-weight: 600;
-
-
-}
-
-.sub{
-		font-size: 1.000em;
-		color: black;
-		text-align: center;
-		margin: 0 auto;
+	  	h4:nth-of-type(2){
+	  		margin-left: 22px;
+	  		margin-right: 4px;
+	  	}
+	  	img{float: left;}
+	  }
 	}
+	// ^ NAV WRAPPER ^
 
-/* v main_photo v */
+
+	// V SURF & PAD HEADING V
+	.s_p_heading{
+
+		h1{
+			padding-top: 148px; 
+			margin: 0 auto;
+			width: 100%;
+			font-size: 111px;
+			font-weight: 600;
+			text-align: center;
+			color: #ffffff;
+
+		}
+		h6{
+			padding-bottom: 192px;
+
+			margin: 0 auto;
+			width: 100%;
+			font-size: 16px;
+			font-weight: 700;
+			text-align: center;
+			color: #0a273f;
+		}
+	}
+	// ^ SURF & PAD HEADING ^
+
+section{
+	@extend %over_bor
+	margin: 0 auto;
+
+	// V ARTICLE V
+	article{
+		max-width: 45%;
+		.article_hd{
+			font-size: 36px;
+			font-weight: 400;
+		}
+
+		.htemel_sm_pic{
+			max-height: 20px;
+			max-width: 20px;
+		}
+
+		h6{
+			display: inline-block;
+		}
+
+		// v article post v
+		p{
+			float: left;
+			text-align: left;
+			width: 100%;
+		}
+
+		h3{
+			border-left: 4px solid #0a273f;
+			font-size: 36px;
+			font-weight: 600;
+		}
+
+		// v article buttons v
+		.article_btns{
+			padding-right: 5px;
+			overflow: hidden;
+		}
+
+		.btn{
+			float: left;
+		}
+
+		.btn_img{
+			float: left;
+		}
+
+		h5{
+			float: left;
+			font-size: 20px;
+			font-weight: 600;
+			text-align: center;
+		}
+	}
+}	
+	
+
+
+
 
 
 

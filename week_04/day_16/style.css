@@ -1,0 +1,25 @@
+/*
+Errno::ENOENT: No such file or directory @ rb_sysopen - style.scss
+
+Backtrace:
+/Users/bbledsoe/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.11/lib/sass/plugin/compiler.rb:482:in `read'
+/Users/bbledsoe/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.11/lib/sass/plugin/compiler.rb:482:in `update_stylesheet'
+/Users/bbledsoe/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.11/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/Users/bbledsoe/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.11/lib/sass/plugin/compiler.rb:209:in `each'
+/Users/bbledsoe/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.11/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/Users/bbledsoe/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.11/lib/sass/plugin/compiler.rb:293:in `watch'
+/Users/bbledsoe/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.11/lib/sass/plugin.rb:108:in `method_missing'
+/Users/bbledsoe/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.11/lib/sass/exec/sass_scss.rb:381:in `watch_or_update'
+/Users/bbledsoe/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.11/lib/sass/exec/sass_scss.rb:51:in `process_result'
+/Users/bbledsoe/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.11/lib/sass/exec/base.rb:52:in `parse'
+/Users/bbledsoe/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.11/lib/sass/exec/base.rb:19:in `parse!'
+/Users/bbledsoe/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.11/bin/sass:13:in `<top (required)>'
+/Users/bbledsoe/.rvm/rubies/ruby-2.1.2/bin/sass:23:in `load'
+/Users/bbledsoe/.rvm/rubies/ruby-2.1.2/bin/sass:23:in `<main>'
+/Users/bbledsoe/.rvm/gems/ruby-2.1.2/bin/ruby_executable_hooks:15:in `eval'
+/Users/bbledsoe/.rvm/gems/ruby-2.1.2/bin/ruby_executable_hooks:15:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Errno::ENOENT: No such file or directory @ rb_sysopen - style.scss"; }
