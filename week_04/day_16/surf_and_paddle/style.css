@@ -1,77 +1,248 @@
-/*
-Error: Invalid CSS after "	margin:": expected pseudoclass or pseudoelement, was " 0 auto"
-        on line 104 of style.scss
+html {
+  box-sizing: border-box; }
 
-99: 	}
-100: 	// ^ SURF & PAD HEADING ^
-101: 
-102: section{
-103: 	@extend %over_bor
-104: 	margin: 0 auto;
-105: 
-106: 	// V ARTICLE V
-107: 	article{
-108: 		max-width: 45%;
-109: 		.article_hd{
+*, *:before, *:after {
+  box-sizing: inherit; }
 
-Backtrace:
-style.scss:104
-/Users/bbledsoe/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.11/lib/sass/scss/parser.rb:1165:in `expected'
-/Users/bbledsoe/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.11/lib/sass/scss/parser.rb:1101:in `expected'
-/Users/bbledsoe/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.11/lib/sass/scss/parser.rb:1096:in `tok!'
-/Users/bbledsoe/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.11/lib/sass/scss/static_parser.rb:277:in `pseudo'
-/Users/bbledsoe/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.11/lib/sass/scss/static_parser.rb:160:in `simple_selector_sequence'
-/Users/bbledsoe/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.11/lib/sass/scss/static_parser.rb:119:in `selector'
-/Users/bbledsoe/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.11/lib/sass/scss/static_parser.rb:86:in `selector_comma_sequence'
-/Users/bbledsoe/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.11/lib/sass/scss/parser.rb:1079:in `expr!'
-/Users/bbledsoe/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.11/lib/sass/scss/static_parser.rb:20:in `parse_selector'
-/Users/bbledsoe/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.11/lib/sass/tree/visitors/perform.rb:250:in `visit_extend'
-/Users/bbledsoe/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.11/lib/sass/tree/visitors/base.rb:36:in `visit'
-/Users/bbledsoe/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.11/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
-/Users/bbledsoe/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.11/lib/sass/stack.rb:79:in `block in with_base'
-/Users/bbledsoe/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.11/lib/sass/stack.rb:115:in `with_frame'
-/Users/bbledsoe/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.11/lib/sass/stack.rb:79:in `with_base'
-/Users/bbledsoe/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.11/lib/sass/tree/visitors/perform.rb:158:in `visit'
-/Users/bbledsoe/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.11/lib/sass/tree/visitors/perform.rb:430:in `block (2 levels) in visit_rule'
-/Users/bbledsoe/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.11/lib/sass/tree/visitors/perform.rb:430:in `map'
-/Users/bbledsoe/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.11/lib/sass/tree/visitors/perform.rb:430:in `block in visit_rule'
-/Users/bbledsoe/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.11/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
-/Users/bbledsoe/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.11/lib/sass/tree/visitors/perform.rb:428:in `visit_rule'
-/Users/bbledsoe/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.11/lib/sass/tree/visitors/base.rb:36:in `visit'
-/Users/bbledsoe/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.11/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
-/Users/bbledsoe/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.11/lib/sass/stack.rb:79:in `block in with_base'
-/Users/bbledsoe/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.11/lib/sass/stack.rb:115:in `with_frame'
-/Users/bbledsoe/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.11/lib/sass/stack.rb:79:in `with_base'
-/Users/bbledsoe/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.11/lib/sass/tree/visitors/perform.rb:158:in `visit'
-/Users/bbledsoe/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.11/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
-/Users/bbledsoe/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.11/lib/sass/tree/visitors/base.rb:52:in `map'
-/Users/bbledsoe/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.11/lib/sass/tree/visitors/base.rb:52:in `visit_children'
-/Users/bbledsoe/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.11/lib/sass/tree/visitors/perform.rb:167:in `block in visit_children'
-/Users/bbledsoe/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.11/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
-/Users/bbledsoe/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.11/lib/sass/tree/visitors/perform.rb:166:in `visit_children'
-/Users/bbledsoe/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.11/lib/sass/tree/visitors/base.rb:36:in `block in visit'
-/Users/bbledsoe/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.11/lib/sass/tree/visitors/perform.rb:186:in `visit_root'
-/Users/bbledsoe/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.11/lib/sass/tree/visitors/base.rb:36:in `visit'
-/Users/bbledsoe/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.11/lib/sass/tree/visitors/perform.rb:157:in `visit'
-/Users/bbledsoe/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.11/lib/sass/tree/visitors/perform.rb:8:in `visit'
-/Users/bbledsoe/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.11/lib/sass/tree/root_node.rb:36:in `css_tree'
-/Users/bbledsoe/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.11/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
-/Users/bbledsoe/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.11/lib/sass/engine.rb:368:in `_render_with_sourcemap'
-/Users/bbledsoe/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.11/lib/sass/engine.rb:285:in `render_with_sourcemap'
-/Users/bbledsoe/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.11/lib/sass/plugin/compiler.rb:490:in `update_stylesheet'
-/Users/bbledsoe/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.11/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
-/Users/bbledsoe/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.11/lib/sass/plugin/compiler.rb:209:in `each'
-/Users/bbledsoe/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.11/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
-/Users/bbledsoe/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.11/lib/sass/plugin/compiler.rb:470:in `on_file_changed'
-/Users/bbledsoe/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/sass-3.4.11/lib/sass/plugin/compiler.rb:328:in `block in watch'
-/Users/bbledsoe/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/listen-2.8.5/lib/listen/listener.rb:282:in `call'
-/Users/bbledsoe/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/listen-2.8.5/lib/listen/listener.rb:282:in `_process_changes'
-/Users/bbledsoe/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/listen-2.8.5/lib/listen/listener.rb:246:in `block in _wait_for_changes'
-/Users/bbledsoe/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/listen-2.8.5/lib/listen/listener.rb:229:in `loop'
-/Users/bbledsoe/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/listen-2.8.5/lib/listen/listener.rb:229:in `_wait_for_changes'
-/Users/bbledsoe/.rvm/rubies/ruby-2.1.2/lib/ruby/gems/2.1.0/gems/listen-2.8.5/lib/listen/listener.rb:318:in `block in _start_wait_thread'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Error: Invalid CSS after \"	margin:\": expected pseudoclass or pseudoelement, was \" 0 auto\"\A         on line 104 of style.scss\A \A 99: 	}\A 100: 	// ^ SURF & PAD HEADING ^\A 101: \A 102: section{\A 103: 	@extend %over_bor\A 104: 	margin: 0 auto;\A 105: \A 106: 	// V ARTICLE V\A 107: 	article{\A 108: 		max-width: 45%;\A 109: 		.article_hd{"; }
+/* 700 600 400 */
+body {
+  font-family: 'Open Sans', sans-serif;
+  vertical-align: top; }
+
+header {
+  background: url(images/mainphoto.jpg) center center;
+  background-size: cover;
+  width: 100%; }
+
+.nav_wrap {
+  width: 100%;
+  overflow: hidden;
+  box-sizing: border-box; }
+  .nav_wrap .logo {
+    float: left;
+    overflow: hidden;
+    margin-left: 140px;
+    padding-top: 5px; }
+    .nav_wrap .logo img {
+      float: left; }
+    .nav_wrap .logo h4 {
+      float: left;
+      padding-top: 0.8em;
+      padding-left: 0.7em;
+      font-size: 1.125em;
+      font-weight: 600;
+      color: #0a273f; }
+  .nav_wrap .about_search {
+    float: right;
+    margin-right: 153px;
+    padding-top: 13px; }
+    .nav_wrap .about_search h4 {
+      float: left;
+      font-size: 1.125em;
+      font-weight: 600;
+      padding-top: 0.36em;
+      color: #0a273f; }
+    .nav_wrap .about_search h4:nth-of-type(2) {
+      margin-left: 1.3em;
+      margin-right: 0.250em; }
+    .nav_wrap .about_search img {
+      float: left; }
+
+.s_p_heading h1 {
+  padding-top: 1.32em;
+  margin: 0 auto;
+  width: 100%;
+  font-size: 6.9em;
+  font-weight: 600;
+  text-align: center;
+  color: #ffffff; }
+.s_p_heading h6 {
+  padding-bottom: 12.1em;
+  margin: 0 auto;
+  width: 100%;
+  font-size: 1em;
+  font-weight: 700;
+  text-align: center;
+  color: #0a273f; }
+
+section {
+  margin: 0 auto; }
+
+article {
+  float: left;
+  max-width: 49%;
+  margin-left: 9.5em;
+  padding-left: 0.6em;
+  padding-top: 4.9em; }
+
+.article_hd .fan_title {
+  font-size: 3.14em;
+  font-weight: 600;
+  line-height: 1.16;
+  padding-top: 0.04em;
+  padding-left: 0.01em;
+  color: #0a2640; }
+.article_hd .htemel_sm_pic {
+  max-width: 1.438em;
+  padding-top: 0.813em;
+  margin-left: 0.188em; }
+
+h6 {
+  display: inline-block;
+  font-size: 0.838em;
+  font-weight: 400;
+  padding-left: 6.56em;
+  color: #93a3b2; }
+
+a {
+  color: #aebac5; }
+
+.first_li {
+  color: #c3ccd3; }
+
+.second_li {
+  color: #6e94c3; }
+
+p {
+  float: left;
+  text-align: left;
+  width: 98%;
+  padding-top: 2em;
+  line-height: 1.68;
+  word-spacing: 0.03em;
+  color: #747b80; }
+
+.woah {
+  font-size: 1.85em;
+  font-weight: 700;
+  border-left: 0.125em solid #c9c9c9;
+  display: inline-block;
+  margin-top: 17px;
+  padding-top: 16px;
+  padding-bottom: 10px;
+  margin-left: 7px;
+  color: #1158a3; }
+
+.art_btns {
+  padding-left: 0.3em; }
+
+.btn {
+  float: left;
+  margin-right: 0.65em;
+  background-color: #93a3b3;
+  margin-top: 2.16em; }
+
+.btn_txt {
+  float: left;
+  vertical-align: center;
+  color: white;
+  padding-top: 0.6em;
+  text-align: center;
+  padding-left: 0.5em;
+  padding-right: 0.92em;
+  font-size: 0.85em; }
+
+.btn_txt:nth-of-type(2) {
+  padding-right: 0.95em; }
+
+.btn_txt:nth-of-type(3) {
+  padding-right: 0.9em; }
+
+.btn_img {
+  float: left;
+  background-color: #4c555d; }
+
+a:hover .btn_txt {
+  background-color: #1158a3; }
+
+a:hover .btn_img {
+  background-color: #0a2640; }
+
+aside {
+  display: inline-block;
+  max-width: 21.56%;
+  margin-left: 4.6em; }
+  aside .emel {
+    padding-left: 6.09em;
+    padding-top: 5.299em; }
+  aside .social_ntwk {
+    padding-left: 1.94em; }
+    aside .social_ntwk div {
+      color: #aebac7;
+      font-size: 0.86em;
+      float: left;
+      padding-top: 2.37em; }
+      aside .social_ntwk div:nth-of-type(2) {
+        margin: 0 1.7em; }
+  aside .lady {
+    padding-top: 3.4em; }
+  aside .about_ad {
+    float: right;
+    font-size: 0.88em;
+    padding-top: 0.56em; }
+  aside h4 {
+    clear: right;
+    margin-top: 4.1em;
+    font-size: 1.11em;
+    padding-left: 0.14em;
+    word-spacing: 0.02em;
+    color: #1355ab; }
+  aside .ad_p {
+    padding-top: 0.64em;
+    font-size: 0.9em;
+    color: #aab7c3;
+    font-weight: 100;
+    line-height: 1.73; }
+    aside .ad_p a {
+      text-decoration: underline;
+      color: #d2d8de; }
+
+footer {
+  min-width: 81.250em; }
+  footer h2 {
+    display: inline-block;
+    min-width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 3.99em;
+    border-top: 0.03em solid #dae1e5;
+    margin-top: 1.06em;
+    padding-top: .69em;
+    padding-bottom: 0.6em;
+    color: #0a2640; }
+  footer .pop_post_links {
+    float: left; }
+    footer .pop_post_links img {
+      float: left; }
+  footer .blue_box {
+    float: left;
+    clear: left;
+    min-width: 81.250em;
+    background-color: #0a2740;
+    padding: 1.7em 10.175em; }
+    footer .blue_box .copy_right {
+      float: left; }
+      footer .blue_box .copy_right img {
+        float: left;
+        color: #93a3b2; }
+      footer .blue_box .copy_right h5 {
+        float: left;
+        color: #93a3b2;
+        padding-left: 0.8em;
+        padding-top: 1em;
+        font-size: .876em;
+        border-left: 0.063em solid #93a3b2; }
+    footer .blue_box .nav_elem {
+      float: right;
+      padding-top: 0.9em; }
+    footer .blue_box .el {
+      float: left;
+      color: #93a3b2;
+      border-left: 0.063em solid #93a3b2;
+      padding-left: 0.033em;
+      padding-right: 0.033em;
+      font-size: 0.87em;
+      border-left: 0.063em solid #93a3b2;
+      margin-left: 1.56em; }
+
+/*# sourceMappingURL=style.css.map */
