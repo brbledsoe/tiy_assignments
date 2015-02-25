@@ -14,9 +14,6 @@ body {
 // img{ width: 100%;}
 
 
- 
-@media screen and(min-width: 500px){
-  .logo{display: none;}
 
 header{
   	background: url(images/mainphoto.jpg) center center;
@@ -39,14 +36,14 @@ header{
 	  	padding-top: 5px;
 
 	  	img{float: left;}
-	  	h4{
-	  		float: left;
-	  		padding-top: 0.8em;
-	  		padding-left: 0.7em;
-	  		font-size: 1.125em;
-	  		font-weight: 600;
-	  		color: #0a273f;
-	  	}
+	  	// h4{
+	  	// 	float: left;
+	  	// 	padding-top: 0.8em;
+	  	// 	padding-left: 0.7em;
+	  	// 	font-size: 1.125em;
+	  	// 	font-weight: 600;
+	  	// 	color: #0a273f;
+	  	// }
 
 	  }
 
@@ -346,4 +343,5 @@ section{
 			
 
 		}
-		}
+		
+		
