@@ -9,3 +9,9 @@
 
 ##Week 3
   * [Sassy Design Agency](http://brbledsoe.github.io/tiy_assignments/week_03/day_11/sassy_design_agency/)
+
+
+##Week 5
+	*[Fair Bean Design](http://brbledsoe.github.io/tiy_assignments/week_07/fair_bean/index.html)
+
+	   *[Direction I'm going in](https://github.com/brbledsoe/tiy_assignments/blob/master/week_07/fair_bean/fair_bean_comp.psd)
