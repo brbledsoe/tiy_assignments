@@ -1,4 +1,8 @@
 
+@import "../bourbon/bourbon";
+
+
+
 // @import "../bourbon/bourbon";
 
 
@@ -12,11 +16,11 @@ body{box-sizing: border-box;}
 /*V FONT FORMAT V*/
 p{ 
    font-size: 1.063em;
-	 font-family: "museo-sans", sans-serif;
-	 font-weight: 300; 
-	 font-style: normal;
-	 line-height: 1.938em;
-	 margin: 0em 0em 0em 0.325em;
+   font-family: "museo-sans", sans-serif;
+   font-weight: 300; 
+   font-style: normal;
+   line-height: 1.938em;
+   margin: 0em 0em 0em 0.325em;
    padding-bottom: 1.563em;
    color: #726b6b;
    width: 50%; 
@@ -25,23 +29,23 @@ p{
 /*v section headings v*/
 h3{ 
   font-size: 2.688em;
-	 line-height: 3.063em;
-	 margin: 0em 0em 0.938em 0em;
-	 font-family: "Fira Sans", sans-serif;
-	 padding: 0em 1em 0em 0em;
-	 font-weight: 400;
-	 font-style: normal;
+   line-height: 3.063em;
+   margin: 0em 0em 0.938em 0em;
+   font-family: "Fira Sans", sans-serif;
+   padding: 0em 1em 0em 0em;
+   font-weight: 400;
+   font-style: normal;
    margin-left: 0.331em;
-	 }
+   }
 
 /*v main heading v*/
 h1{
   font-size: 3.250em;
-	 line-height: 3.750em;
-	 margin: 0em 0em 0.938em 0em;
-	 font-weight: 200;
-	 font-style: normal;
-	 font-family: "ff-dagny-web-pro", sans-serif; 
+   line-height: 3.750em;
+   margin: 0em 0em 0.938em 0em;
+   font-weight: 200;
+   font-style: normal;
+   font-family: "ff-dagny-web-pro", sans-serif; 
   }
 
 /*v not sure what this is v*/
@@ -65,44 +69,195 @@ header{
 /*========Main Content Below====================================
 V SECTION 1 V*/
 .preamble{
+  overflow: hidden;
+  border-bottom: 1.4em solid #252525;
+  position: relative;
   width: 100%;
-  background-image: url(http://brbledsoe.github.io/tiy_assignments/week_07/day_34/css_zen_garden/css/images/shooting_star_ws_rt-01.svg);
+  background-image: url(http://brbledsoe.github.io/tiy_assignments/week_07/day_34/css_zen_garden/css/images/night_sky_ws.svg);
   background-size: cover;
   background-repeat: no-repeat;
-
-} 
+  h3{
+    color: #ddf9ff;
+    width: 100%;
+    position: relative;
+    
+    &::after{
+      display: inline-block;
+    position: absolute;
+    width: 150px;
+    min-height: 150px;
+    content: "";
+    top: 0px;
+    right: 36px;
+    background-image: url(http://brbledsoe.github.io/tiy_assignments/week_07/day_34/css_zen_garden/css/images/shooting_star_ws_rt-01.svg);
+    background-repeat: no-repeat;
+    animation: slide 2s infinite ease-out;
+    animation-delay: 5s;
+      animation-direction: normal;
+  }
+    @keyframes slide {
+    0%{top: 0; right: 36px;}
+    100% {top: 800%; right: 50%;} 
+  }
+   
+  p{
+    color: #ffffff;
+  }
+  }
+}
 
 
 /*V SECTION 2 V*/
 .explanation{
+  position: relative;
+  border-bottom: 1.4em solid #252525;
   width: 100%;
   background-image: url(http://brbledsoe.github.io/tiy_assignments/week_07/day_34/css_zen_garden/css/images/pine_forest.svg);
   background-size: cover;
   background-repeat: no-repeat;
+  overflow: hidden;
+  
   h3{margin-left: 49.2%;
+    &::after{display: inline-block;
+    position: absolute;
+    width: 150px;
+    min-height: 150px;
+    content: "";
+    top: 0px;
+    left: 36px;
+    width: 100%;
+      min-height: 100%;
+    background-image: url(http://brbledsoe.github.io/tiy_assignments/week_07/day_34/css_zen_garden/css/images/sasq.svg);
+    background-repeat: no-repeat;
+    animation: bounce 1.5s infinite ease-out;
+    animation-delay: 12s;
+    animation-direction: normal;
+    }
+    @-webkit-keyframes bounce { 
+   0% { 
+       opacity: 0; 
+        -webkit-transform: translateY(-2000px); } 
+    60% { 
+        opacity: 1; 
+        -webkit-transform: translateY(30px); 
+    } 
+    80% { 
+        -webkit-transform: translateY(-10px); 
+    } 
+    100% { 
+        -webkit-transform: translateY(0); 
+    } 
+} 
+
+@keyframes bounce { 
+    0% { 
+        opacity: 0; 
+        transform: translateY(-2000px); 
+    } 
   }
   p{margin-left: 49.2%;}
 }
 
+
 /*V SECTION 3 V*/
 .participation{
+  position: relative;
+  border-bottom: 1.4em solid #252525;
   width: 100%;
-  background-image: url(images/);
+  background-image: url(http://brbledsoe.github.io/tiy_assignments/week_07/day_34/css_zen_garden/css/images/mountains.svg);
   background-size: cover;
   background-repeat: no-repeat;
-  border: 0.063em solid pink;
+  h3{
+  &::before{
+    display: inline-block;
+    position: absolute;
+    top: 0px;
+    right: 36px;
+    width: 700px;
+    min-height: 700px;
+    content: "";
+    background-image: url(http://brbledsoe.github.io/tiy_assignments/week_07/day_34/css_zen_garden/css/images/cloud_1.svg), url(http://brbledsoe.github.io/tiy_assignments/week_07/day_34/css_zen_garden/css/images/cloud_2.svg );
+    background-repeat: no-repeat;
+    background-position: 0px 0px, -32px 32px;
+    animation: cloud 10s infinite ease-out;
+    animation-delay: 5s;
+    animation-direction: normal; 
+  }
+  @keyframes cloud {
+      0% { right: 36px; };
+      50% { right: 360px; }
+  }
+  &::after{display: inline-block;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 700px;
+    min-height: 700px;
+    content: "";
+    background-image: url(http://brbledsoe.github.io/tiy_assignments/week_07/day_34/css_zen_garden/css/images/cloud_2.svg);
+    background-position: -16px 16px;
+    background-repeat: no-repeat;
+    animation: cloud_1 10s infinite ease-out;
+    animation-delay: 5s;
+    animation-direction: normal; 
+    }
+    @keyframes cloud_1 {
+        0%{right: 0px;};
+        50%{right: 400px; }
+    }
+  }
 }
 
+
 /*V SECTION 4 V*/
-.benefits{
-  border: 0.063em solid yellow;
-   h3{margin-left: 50%;}
+      .benefits{
+  border-bottom: 1.4em solid #252525;
+  width: 100%;
+  background-image:  url(http://brbledsoe.github.io/tiy_assignments/week_07/day_34/css_zen_garden/css/images/the_sea.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  h3{margin-left: 50%;
+  &::after{display: inline-block;
+    position: absolute;
+    top: 100px;
+    right: 0px;
+    width: 90px;
+    min-height: 90px;
+    content: "";
+    background-image: url(http://brbledsoe.github.io/tiy_assignments/week_07/day_34/css_zen_garden/css/images/boat.svg);
+    background-position: -16px 16px;
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    animation: boat 40s infinite linear, boat_rotate 5s infinite ease-in-out;
+    animation-delay: 5s;
+    animation-direction: normal; 
+    }
+    @keyframes boat {
+        0%{right: 0px;};
+        50%{right: 90%;}
+    }
+    @keyframes boat_rotate {
+        0% { transform: rotate(0deg);};
+        20% { transform: rotate(10deg); };
+        40% { transform: rotate(0deg); };
+        80% { transform: rotate(-10deg); };
+        100% { transform: rotate(0deg); };
+    }
+  }
+
+  
   p{margin-left: 50%;}
 }
 
+
 /*V SECTION 5 V*/
 .requirements{
-  border: 0.063em solid orange;
+  border-bottom: 1.4em solid #252525;
+  width: 100%;
+  background-image: url(http://brbledsoe.github.io/tiy_assignments/week_07/day_34/css_zen_garden/css/images/desert.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 /* ========Main Content Below====================================
 
@@ -110,19 +265,34 @@ V SECTION 1 V*/
 
 /*V FOOTER V*/
 footer{
+  float: right;
+  display: block;
+  font-size: 24px;
+  padding-right: 120px;
+  text-align: center;
   border: 0.063em dashed blue;
 }
 
 /*V ASIDE STUFF V*/
 .design-selection{
+  float: left;
+  width: 33.33%;
   border: 0.188em dotted purple;
 }
 
 .design-archives{
+  float: left;
+  width: 33.33%;
   border: 0.188em dotted purple;
+  h3{
+ 
+  }
 }
 
 .zen-resources{
+  float: left;
+  width: 33.33%;
   border: 0.188em dotted purple;
+}
 }
 
