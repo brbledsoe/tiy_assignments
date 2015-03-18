@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 18.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 301.2 292.5" enable-background="new 0 0 301.2 292.5" xml:space="preserve">
+<g>
+	<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="149.8049" y1="117.56" x2="156.799" y2="117.56">
+		<stop  offset="0" style="stop-color:#7D0011"/>
+		<stop  offset="0.2528" style="stop-color:#BD7150"/>
+		<stop  offset="0.4494" style="stop-color:#8B4419"/>
+		<stop  offset="0.6348" style="stop-color:#81200A"/>
+	</linearGradient>
+	<rect x="149.8" y="8.8" fill="url(#SVGID_1_)" width="7" height="217.5"/>
+	<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="9.4066" y1="247.7256" x2="301.2089" y2="247.7256">
+		<stop  offset="0" style="stop-color:#7D0011"/>
+		<stop  offset="0.2528" style="stop-color:#BD7150"/>
+		<stop  offset="0.8141" style="stop-color:#81200A"/>
+	</linearGradient>
+	<path fill="url(#SVGID_2_)" d="M223.3,292.5H77.5c-11.2,0-21.5-5.9-27.3-15.5l-40.1-67.2c-1.8-3,0.4-6.9,3.9-6.9h284.3
+		c2.4,0,3.8,2.8,2.3,4.7l-57.2,74.9C238.6,288.8,231.2,292.5,223.3,292.5z"/>
+	<linearGradient id="SVGID_3_" gradientUnits="userSpaceOnUse" x1="158.5696" y1="102.56" x2="287.5631" y2="102.56">
+		<stop  offset="1.123600e-02" style="stop-color:#FBEFD0"/>
+		<stop  offset="0.7809" style="stop-color:#FBEEB2"/>
+	</linearGradient>
+	<polyline fill="url(#SVGID_3_)" points="287.6,191.8 158.6,191.8 158.6,13.3 	"/>
+	
+		<linearGradient id="SVGID_4_" gradientUnits="userSpaceOnUse" x1="-376.0096" y1="117.56" x2="-274.1155" y2="117.56" gradientTransform="matrix(-1 0 0 1 -227.2047 0)">
+		<stop  offset="1.123600e-02" style="stop-color:#FBEFD0"/>
+		<stop  offset="0.7809" style="stop-color:#FBEEB2"/>
+	</linearGradient>
+	<polyline fill="url(#SVGID_4_)" points="46.9,188.1 148.8,188.1 148.8,47.1 	"/>
+</g>
+</svg>

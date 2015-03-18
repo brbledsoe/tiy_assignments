@@ -1,0 +1,128 @@
+
+// @import "../bourbon/bourbon";
+
+
+html{  background: url(images/bg.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;}
+
+body{box-sizing: border-box;}
+/*V FONT FORMAT V*/
+p{ 
+   font-size: 1.063em;
+	 font-family: "museo-sans", sans-serif;
+	 font-weight: 300; 
+	 font-style: normal;
+	 line-height: 1.938em;
+	 margin: 0em 0em 0em 0.325em;
+   padding-bottom: 1.563em;
+   color: #726b6b;
+   width: 50%; 
+}
+
+/*v section headings v*/
+h3{ 
+  font-size: 2.688em;
+	 line-height: 3.063em;
+	 margin: 0em 0em 0.938em 0em;
+	 font-family: "Fira Sans", sans-serif;
+	 padding: 0em 1em 0em 0em;
+	 font-weight: 400;
+	 font-style: normal;
+   margin-left: 0.331em;
+	 }
+
+/*v main heading v*/
+h1{
+  font-size: 3.250em;
+	 line-height: 3.750em;
+	 margin: 0em 0em 0.938em 0em;
+	 font-weight: 200;
+	 font-style: normal;
+	 font-family: "ff-dagny-web-pro", sans-serif; 
+  }
+
+/*v not sure what this is v*/
+h2{
+  display: block;
+  padding: 0.313em 0em 0.313em 4.375em; 
+  color: rgba(255,255,255,0.6);
+  font-size: 1.6em;
+  font-style: italic;
+}
+
+/*V HEADER V*/
+header{
+  border: 0.063em dashed blue;
+}
+.summary{
+  border: 0.063em dashed blue;
+}
+
+
+/*========Main Content Below====================================
+V SECTION 1 V*/
+.preamble{
+  width: 100%;
+  background-image: url(http://brbledsoe.github.io/tiy_assignments/week_07/day_34/css_zen_garden/css/images/shooting_star_ws_rt-01.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+
+} 
+
+
+/*V SECTION 2 V*/
+.explanation{
+  width: 100%;
+  background-image: url(http://brbledsoe.github.io/tiy_assignments/week_07/day_34/css_zen_garden/css/images/pine_forest.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  h3{margin-left: 49.2%;
+  }
+  p{margin-left: 49.2%;}
+}
+
+/*V SECTION 3 V*/
+.participation{
+  width: 100%;
+  background-image: url(images/);
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: 0.063em solid pink;
+}
+
+/*V SECTION 4 V*/
+.benefits{
+  border: 0.063em solid yellow;
+   h3{margin-left: 50%;}
+  p{margin-left: 50%;}
+}
+
+/*V SECTION 5 V*/
+.requirements{
+  border: 0.063em solid orange;
+}
+/* ========Main Content Below====================================
+
+
+
+/*V FOOTER V*/
+footer{
+  border: 0.063em dashed blue;
+}
+
+/*V ASIDE STUFF V*/
+.design-selection{
+  border: 0.188em dotted purple;
+}
+
+.design-archives{
+  border: 0.188em dotted purple;
+}
+
+.zen-resources{
+  border: 0.188em dotted purple;
+}
+
