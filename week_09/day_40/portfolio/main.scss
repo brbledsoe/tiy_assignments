@@ -1,9 +1,9 @@
 header{
-  display: inline-block;
+  display: inline-block; 
   box-sizing: border-box;
   
   width: 100%;
-  background-color: #29489f;
+  background-color: #94A0C1;
   .logo{
     float: left;
     margin-left: 5%;
@@ -123,7 +123,7 @@ header{
   }
 }
 
-// V ABOUT PAGE V
+//====== V ABOUT PAGE V ======
 .about{
   h3{
     margin-left: 6%;
@@ -138,6 +138,26 @@ header{
     margin-right: 6%;
     color: #4A3F3F;
   }
+}
+
+//====== V BLOG PAGE V ======
+
+.post{
+  float: left;
+  width:28.91%;
+  margin-left: 4.31%;
+  margin-top: 3%;
+ 
+  h2{
+    color: #878787;
+    float: left;
+    font-family: "fira-sans", sans-serif;
+
+  }
+  .post_body{
+    float: left;
+  line-height: 1.25;
+  font-size: 1.2em;}
 }
 
 
