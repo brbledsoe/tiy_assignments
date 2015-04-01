@@ -53,4 +53,12 @@ Whats their problem
 
 * Grid: Decrease the white space, and utilize the extra room for making clearer distinctions and indications for what this site is about.  I may add some info graphic's about current issue's in Austin, and how one person can really make an impact. 
 
-* Hierarchy:  Make the font size, and capitalizations, a
+* Hierarchy:  Make the font size, and capitalizations, 
+
+###_Sketches_
+
+![home1](images/home1)  
+
+![home2](images/home2)
+
+![home3](images/home3)
