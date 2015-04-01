@@ -57,8 +57,8 @@ Whats their problem
 
 ###_Sketches_
 
-![home1](images/home1)  
+![home1](images/home1.jpg)  
 
-![home2](images/home2)
+![home2](images/home2.JPG)
 
-![home3](images/home3)
+![home3](images/home3.JPG)
