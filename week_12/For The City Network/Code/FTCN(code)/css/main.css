@@ -1,0 +1,234 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+body {
+  font-family: "jaf-bernino-sans-condensed"; }
+
+img {
+  max-width: 100; }
+
+h1 {
+  font-size: 4.5em;
+  font-family: "Merriweather";
+  font-style: italic;
+  font-weight: bold;
+  line-height: 1; }
+
+h2 {
+  font-size: 1.65em;
+  margin-top: 0.5em; }
+
+h3 {
+  font-size: 1.7em; }
+
+h4 {
+  font-size: 1.7em;
+  font-family: "Merriweather";
+  font-style: italic;
+  font-weight: bold; }
+
+p {
+  font-size: 1.1em;
+  line-height: 1.5;
+  max-width: 685px; }
+
+header nav {
+  background-color: #a8d7ce;
+  overflow: hidden;
+  padding-left: 3.5%;
+  padding-right: 3.5%; }
+header .card {
+  float: left;
+  width: 20%;
+  padding: 0.9em 0 0.59em 0; }
+  header .card:hover .nav_icon {
+    background-color: #195c4e; }
+  header .card:hover p {
+    color: white; }
+  header .card .main_logo_hidden {
+    display: none; }
+  header .card .nav_icon {
+    border-radius: 50%;
+    width: 72%;
+    height: auto;
+    padding-top: 72%;
+    background-color: #424956;
+    margin: 0 auto; }
+  header .card .nav_text {
+    line-height: 2.5; }
+  header .card p {
+    text-align: center;
+    line-height: 2;
+    color: #363637; }
+
+.hero {
+  padding: 13.3% 0 16.9% 0; }
+  .hero .main_logo {
+    background-color: #424956;
+    display: block;
+    max-width: 6.5em;
+    height: 6.5em;
+    margin: 0 auto;
+    margin-bottom: 1.44em;
+    border-radius: 50%; }
+  .hero .hero_text {
+    display: block;
+    margin: 0 auto;
+    margin-left: 13.2%;
+    width: 80%; }
+    .hero .hero_text h1 {
+      display: inline-block; }
+    .hero .hero_text .heading_sect_two {
+      display: inline-block;
+      font-size: 5.9em;
+      font-weight: 500; }
+    .hero .hero_text h2 {
+      line-height: 1.7em; }
+
+.featured_wrap {
+  overflow: hidden;
+  background-color: #a8d7ce;
+  padding-left: 7%;
+  padding-right: 7%;
+  padding-bottom: 3.5em; }
+  .featured_wrap .featured_txt {
+    margin-top: 2.4em;
+    color: white; }
+  .featured_wrap article {
+    margin-top: 1.8em;
+    width: 100%; }
+  .featured_wrap .article_hidden {
+    display: none; }
+  .featured_wrap h4 {
+    line-height: 1.52;
+    color: #424956; }
+  .featured_wrap p {
+    color: #363637;
+    font-size: 1.09em;
+    line-height: 1.8; }
+  .featured_wrap .button {
+    box-sizing: border-box;
+    border: 0.21em solid #424956;
+    border-radius: 0.28em;
+    margin-top: 0.7em;
+    padding: 1.7em 0 1.7em 0; }
+    .featured_wrap .button:hover {
+      background-color: #424956; }
+    .featured_wrap .button .btn_txt {
+      text-align: center;
+      color: white; }
+
+/*V MEDIA QUERY (TABLET SIZE) V*/
+@media screen and (min-width: 500px) {
+  /*V TYPOGRAPHY V*/
+  body h1 {
+    font-size: 3.4em; }
+  body h2 {
+    font-size: 2.049em; }
+  body h3 {
+    font-size: 1.69em; }
+  body h4 {
+    font-size: 1.69em; }
+
+  header {
+    /* V HIDDEN LOGO REVEAL V*/ }
+    header .nav_icon {
+      display: none; }
+    header .main_logo_hidden {
+      display: block;
+      position: absolute;
+      width: 7.5em;
+      height: 7.5em;
+      background-color: #424956;
+      border-radius: 50%;
+      margin-top: 2%; }
+    header nav {
+      padding-right: 5%;
+      padding-left: 5%; }
+      header nav .card {
+        width: 16%;
+        padding: 1.4em 0 1.4em 0; }
+        header nav .card .nav_text {
+          font-size: 1.1em; }
+        header nav .card:hover {
+          box-sizing: border-box;
+          padding-bottom: 0.8em;
+          border-bottom: 0.6em solid #195c4e; }
+      header nav h4 {
+        padding: 5px 0; }
+
+  .home {
+    margin-left: 19%; }
+
+  .hero {
+    padding: 3.79em 0 3.7em 0; }
+    .hero .main_logo {
+      display: none; }
+    .hero .hero_text h1 {
+      padding-bottom: 0.259em;
+      padding-left: 0.36em;
+      line-height: 1; }
+    .hero .hero_text h2 {
+      padding-left: 0.34em;
+      max-width: 17em; } }
+.featured {
+  padding-left: 5%;
+  padding-right: 5%;
+  /*V MEDIA QUERY (TABLET SIZE) V*/ }
+  .featured .featured_txt {
+    margin-top: 1.25em; }
+  .featured .art_wrap {
+    float: left; }
+    .featured .art_wrap:nth-of-type(2) {
+      float: right; }
+    .featured .art_wrap article {
+      max-width: 100%; }
+      .featured .art_wrap article:nth-of-type(2) {
+        float: right;
+        max-width: 100%; }
+
+/*# sourceMappingURL=main.css.map */

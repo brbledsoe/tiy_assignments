@@ -1,0 +1,279 @@
+
+
+// *****************************************************************************************************************V GLOBAL V
+
+header{
+ 
+  
+  nav{
+    background-color: $aquagreen;
+    overflow: hidden;
+    padding-left: 3.5%;
+    padding-right: 3.5%;
+  }
+  
+  .card{
+    float: left;
+    width: 20%;
+    padding: 0.9em 0 0.59em 0;
+    
+    &:hover .nav_icon{
+      background-color: $darkgreen;
+    }
+    
+    &:hover p{
+      color: white;
+    }
+    
+   .main_logo_hidden{
+     display: none;
+   }
+    
+    .nav_icon{
+      border-radius: 50%;
+      width: 72%;
+      height: auto;
+      padding-top: 72%;
+      background-color: $flatgrey;
+      margin: 0 auto;
+    }
+    .nav_text{
+      line-height: 2.5;
+    }
+    
+    p{
+      text-align: center;
+      line-height: 2;
+      color: $charcoal;
+
+      
+    } 
+  } 
+  }
+
+  
+  // V HERO SECTION V
+  .hero{
+  padding: 13.3% 0 16.9% 0;
+
+
+  .main_logo{
+    background-color: $flatgrey;
+    display: block;
+    max-width: 6.5em;
+    height: 6.5em;
+    margin: 0 auto;
+    margin-bottom: 1.44em;
+    border-radius: 50%;
+  }
+
+    .hero_text{
+      display: block;
+      margin: 0 auto;
+      margin-left: 13.2%;
+      width: 80%;
+      
+      
+    h1{
+      
+      display: inline-block;
+    }
+    .heading_sect_two{
+      display: inline-block;
+      font-size: 5.9em;
+      font-weight: 500;
+    }
+    h2{
+      line-height: 1.7em;
+     
+          }
+  }
+  }
+
+  // V MAIN ACTION BUTTONS SECTION V
+
+  .main_action_btns_wrap{
+    overflow: hidden;
+    padding-left: 7%;
+    padding-right: 7%;
+    padding-bottom: 3.5em;
+  }
+  
+  
+  // V FEATURED SECTION V
+  .featured_wrap{
+    overflow: hidden;
+    background-color: $aquagreen;
+    padding-left: 7%;
+    padding-right: 7%;
+    padding-bottom: 3.5em;
+  
+    .featured_txt{
+      margin-top: 2.4em;
+      color: white;
+    }
+   article{
+    margin-top: 1.8em;
+    width: 100%;
+   }
+   .article_hidden{
+    display: none;
+   }
+    h4{
+      line-height: 1.52;
+      color: $flatgrey;
+
+    }
+    p{
+      color: $charcoal;
+      font-size: 1.09em;
+      line-height: 1.8;
+          }
+
+    // V MORE INFO BUTTON V   
+    .button{
+      box-sizing: border-box;
+      border: 0.21em solid $flatgrey;
+      border-radius: 0.28em;
+      margin-top: 0.7em;
+      padding: 1.7em 0 1.7em 0;
+
+       &:hover {
+        background-color: $flatgrey;
+
+
+       }
+    .btn_txt{
+      
+      text-align: center;
+      color: white;
+    }}
+  }
+  
+ 
+
+// *****************************************************************************************************************
+  /*V MEDIA QUERY (TABLET SIZE) V*/
+
+@media screen and (min-width: 500px){
+    /*V TYPOGRAPHY V*/
+    body{
+    h1{font-size: 3.4em;}
+    h2{font-size: 2.049em;}
+    h3{font-size: 1.69em;}
+    h4{font-size: 1.69em;}
+
+  }
+
+
+  header{
+    
+  
+    
+   /* V HIDDEN LOGO REVEAL V*/
+    .nav_icon {display:none;}
+    .main_logo_hidden{
+        display: block;
+        position: absolute;
+        width: 7.5em;
+        height: 7.5em;        background-color: $flatgrey;
+        border-radius: 50%;
+        margin-top:2%;
+    }
+    
+    // V NAV V ---------------
+    nav{
+      padding-right: 5%;
+      padding-left: 5%;
+      .card{
+        width: 16%;
+        padding: 1.4em 0 1.4em 0;
+        .nav_text{font-size: 1.1em;}
+        &:hover{
+          box-sizing: border-box;
+          padding-bottom: 0.8em;
+          border-bottom: 0.6em solid $darkgreen;
+
+          
+        }
+
+    }
+      h4{
+        padding: 5px 0;
+      }
+    }
+ 
+    }
+    .home{
+      margin-left: 19%;
+    }
+
+    // V HERO V ==============
+    .hero{
+      padding: 3.79em 0 3.7em 0;
+    .main_logo {display: none;}
+    .hero_text {
+
+      h1{
+        padding-bottom: 0.259em;
+        padding-left: 0.36em;
+        line-height: 1;
+      }
+      h2{
+       padding-left: 0.34em;
+       max-width: 17em;
+      }
+    }
+  }
+
+  }
+
+  // ============================V FEATURED V========= 
+  .featured{
+    padding-left: 5%;
+    padding-right: 5%;
+  
+  .featured_txt{
+    margin-top: 1.25em;
+
+
+  }
+  .art_wrap{
+    float: left;
+    // max-width: 50%;
+    &:nth-of-type(2){
+      float: right;
+      
+  }
+article{
+ // float: left;
+ max-width: 100%;
+ 
+ 
+ &:nth-of-type(2){
+  float: right;
+ max-width: 100%;
+  // padding-left: 7%;
+  // padding-right: 7%;
+ 
+ }
+}
+ 
+}
+
+
+// =====================================================================================================================================
+  /*V MEDIA QUERY (TABLET SIZE) V*/
+
+@media screen and (min-width: 960px){
+
+  nav{
+    .main_logo_hidden{
+            
+    }
+  }
+}
+
+
+  
+}
